@@ -1,4 +1,5 @@
 import re
+import sys
 
 def countWords(filename):
     words = []
@@ -26,7 +27,8 @@ def countWords(filename):
     print("written to file!")
 
 def main():
-    countWords("declaration.txt")
+    # pass first arg[1] as param to countWords
+    countWords(sys.argv[1])
 
 if __name__ == '__main__':
     main()

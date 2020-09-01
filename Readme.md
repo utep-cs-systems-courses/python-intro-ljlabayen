@@ -1,3 +1,16 @@
+# Word Counter
+* This program takes input text file and outputs a tokenized and sorted list (decending order) 
+of words along with  the number of occurences of each word.
+
+* Sample output:
+    >all 6<br/>
+    python 2<br />
+    zebra 8
+
+* To run program:
+    * `$ python3 wordCount.py input.txt`
+# Instructions:
+
 This repository contains the code for the python introduction lab. The
 purpose is to have a fairly simple python assignment that introduces
 the basic features and tools of python
