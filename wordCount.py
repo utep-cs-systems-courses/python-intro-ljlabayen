@@ -16,7 +16,7 @@ def countWords(filename):
         else:
             counts[word] = 1
 
-    with open("test.txt", 'w') as f:
+    with open("myOutput.txt", 'w') as f:
         for elem in sorted(counts.items()):
             f.write(elem[0] + ' ' +  str(elem[1]) + '\n')
     print("written to file!")
